@@ -1,0 +1,131 @@
+@media screen and (max-width:688px){
+    nav{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-bar a{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: 1.5em;
+    }
+    .banner img{
+        width: 90vw;
+        height: 55vh;
+    }
+    .btn-primary{
+        width: 30vw;
+    }
+
+    /* banner end  */
+
+    /* feature start */
+    .feature-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-img{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-img img{
+        margin: auto;
+        width: 90%;
+        padding-top: 1em;
+    }
+    .feature-content{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    /* ------------- */
+    /* love-enjoy start  */
+    .love-enjoy-sec{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .love-enjoy-content{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    .banner-second img{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .btn-big{
+       visibility: hidden;
+    }
+    .btn-big-2{
+        font-size: 50px;
+        width: 50vw;
+        margin: auto;
+        border-style: none;
+        border-radius: 5px;
+        color: white;
+        background-color: rgb(47, 43, 243);
+    }
+    /* end  */
+
+    /* some facts  */
+    .facts-content{
+        text-align: center;
+    }
+    .facts-divs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .facts-item{
+        width: 50%;
+        margin: auto;
+        margin-top: 1em;
+    }
+
+    /* end */
+
+    /* register start  */
+    .register{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 80%;
+        margin: auto;
+    }
+    .sign-in-div{
+        height: 60%;
+        width: 50vw;
+    }
+    .form{
+        width: 90%;
+    }
+    .btn-sign-in{
+        width: 100%;
+    }
+    .btn-sign-in-2{
+        width: 100%;
+    }
+    .btn-sign-in-3{
+        width: 100%;
+    }
+    .img-register{
+        width: 100%;
+    }
+    /* end */
+
+    /* our sponsors */
+    .sponsors-img{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .sponsors-img span{
+        margin-top: 2.5em;
+        
+    }
+    /* end  */
+}
