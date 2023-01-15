@@ -16,14 +16,20 @@ nav{
     margin-left: 1em;
 }
 span{
-    color: rgb(43, 61, 226);
+    color: rgb(255, 41, 4);
 }
 
 /* banner start */
 .banner-content {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
-    margin-top: 1em;
-    margin-bottom: 2em;
+    border-radius: 5px;
+    margin: auto;
+    padding-bottom: 1em;
+    width: 50%;
+    border: 1px solid red;
 }
 .banner-content h1{
     font-size: 3em;
@@ -31,12 +37,14 @@ span{
 }
 .banner-content p{
     font-size: 1em;
+    color: rgb(89, 96, 102);
 
 }
 .banner{
     /* border: 1px solid red; */
     text-align: center;
     height: 100%;
+    margin-top: 2em;
 }
 .banner img{
     width: 78%;
@@ -45,7 +53,7 @@ span{
 .btn-primary{
     font-size: 1.2em;
     height: 2.5em;
-    width: 10%;
+    width: 10vw;
     border-style: none;
     border-radius: 5px;
     color: white;
@@ -55,3 +63,34 @@ span{
     background: rgb(20, 107, 220);
     color: white;
 }
+
+/* feature start */
+main{
+    text-align: center;
+}
+.feature-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border: 1px solid red;
+}
+.feature-img img{
+    margin: 5px;
+}
+.feature-content{
+    width: 40%;
+    text-align: left;
+    margin-right: 2.5em;
+}
+.feature-content h1{
+    font-size: 3em;
+}
+.feature-content p{
+    /* font-size: 3em; */
+    margin-bottom: 2em;
+    color: rgb(89, 96, 102);
+}
+/* feature end */
