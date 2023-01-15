@@ -200,6 +200,10 @@ main{
     width: 14vw;
     padding: 10px;
 }
+.facts-item:hover{
+    background-color: rgb(245, 163, 91);
+    color: white;
+}
 .facts-item p{
     font-size: 25px;
     color: rgb(89, 96, 102);
